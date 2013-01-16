@@ -1,0 +1,447 @@
+/*
+_______________________________
+Desktop version layout - place your custom code here */
+
+body {
+
+}
+
+form    {
+width: 30em;
+height: 30em;
+text-align: center;
+
+}
+
+h3{
+        font-family: 'fredoka one';
+	font-weight: normal;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+
+
+
+
+input.button {
+width:100px;
+font-family: Tahoma, Geneva, sans-serif;
+height:30px;
+border-style: none;
+}
+
+input.button:hover {
+background:#fff;
+color:#09C;
+}
+
+#contact-form{
+	width: 100%;
+	height: auto;
+
+ 	
+}
+.placeholder{
+	font-size: 500%;
+}
+ .contactplate{
+ 	position: relative;
+ 	width: 90%;
+ 	height: 8%;
+ 	margin:5% auto 0 auto;
+ 	font-size: 150%;
+
+ }
+ 
+
+#contactplate-3{
+	position: relative;
+	margin-top: 5%;
+	font-size: 150%;
+
+}
+#msgtext{
+	position: absolute;
+	left: 12%;
+	top: 0;
+}
+#inputbox{
+
+	margin-top: 15%;
+}
+
+#msginput{
+	width: 90%;
+	resize: none;
+}
+.userinput{
+	position: absolute;
+	right: 7%;
+	top:0;
+}
+
+.userlabel{
+	position: absolute;
+	left: 7%;
+	top: 0;
+}
+#msgbutt{
+	position: absolute;
+	right: 23%;
+	top:0;
+}
+
+.contactbox{
+	padding-top: 5%;
+}
+
+
+#whatlink{
+position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+
+}
+#howlink{
+	position: relative;
+	display: block;
+	width: 3em;
+	margin: 0 auto 0 auto;
+	text-align: center;
+	top:47%;
+
+}
+
+.pagebreak{
+	margin: 3% auto 3% auto;
+	width: 10px;
+	height: 10px;
+}
+
+#wholink{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+}
+
+#fancyrule{
+	display: table-cell;
+	width: 2em;
+	text-align: center;
+	vertical-align: middle;
+        font-size: 600%;
+        font-family: 'Six Caps';
+}
+#logobox{
+	margin-top: 5%;
+	width:30em;
+	height:20em;
+	overflow: hidden;
+}
+
+#logo{
+clip: auto;
+width: 100%;
+height: auto;
+}
+
+.rule{
+	width:75%;
+	height: 4px;
+}
+
+#navlinks{
+	position: relative;
+	width:19em;
+	height: 15em;
+	margin: 8% auto 0 auto;
+}
+
+#hero-block{
+	position: relative;
+	display: table;
+	width: 50em;
+	margin: 10% auto 10% auto;
+height: 20em;
+}
+.hero-text{
+font-size: 600%;
+font-family: 'Six Caps';
+}
+
+#herotext1{
+	position: absolute;
+	left: 0;
+	top: 5%;
+
+}
+
+#herotext2{
+	position: absolute;
+	right: 0;
+	bottom: 5%;
+}
+
+.headertext{
+	text-align: center;
+	width: 10em;
+	margin: 6% auto 6% auto;
+	font-family: 'Alfa Slab One';
+	font-size: 300%;
+	color:#c14b0d;
+}
+
+.navtext{
+	font-family: 'Alfa Slab One';
+	font-size: 400%;
+}
+
+.bodytext{
+	font-family: 'Nunito';
+	font-size: 120%;
+}
+
+
+
+.testnumbplacement{
+	display: table-cell;
+	vertical-align: middle;
+	color: #ffffff;
+	font-family: 'Croissant One';
+
+}
+
+.numberheader{
+
+	text-align: center;
+	display: table;
+	width: 175px;
+	height: 175px;
+	margin: auto auto 10% auto;
+	font-size: 1100%;
+	
+	background-color: #223344;
+	border-radius: 100px;
+}
+
+.articlebox{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.center{
+	width:5em;
+	display: block;
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+#whatpanel{
+	height: auto;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+
+#msginput{
+	width: 75%;
+	height: 20em;
+}
+
+ .testfill{
+ 	background-color: #223344;
+ }
+
+
+.biopicframe{
+
+	width:90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.biopic{
+	width: 100%;
+	height: auto;
+}
+
+
+.bio{
+	height: 50em;
+}
+
+#slider{
+	float: right;
+	width: 24em;
+}
+.slider-wrapper {
+	position: relative;
+	left: 30%;
+}
+
+
+
+.pp_close{
+	position: relative;
+	top: -20px;
+}
+
+#contactinfobox{
+	width: 50%;
+	height: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-top: 5%;
+
+}
+
+.contactinfo{
+	display: block;
+	width: 100%;
+	font-size: 150%;
+	margin: 0 auto;
+	text-align: center;
+	color:#058;
+
+}
+
+#footerlogo{
+	display:block;
+	width: 65%;
+	height: auto;
+	margin: 10% auto 0 auto;
+}
+
+.footerheader{
+	font-family: 'Alfa Slab One';
+	font-size: 300%;
+	width:8em;
+	display: block;
+	margin: 2% auto 5%;
+	text-align: center;
+	color: #c14b0d;
+}
+
+/*
+_______________________________
+Mobile version - preset code from cssgrid.net */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	.examplecontainer {}
+
+	body {
+		-webkit-text-size-adjust: none;
+		overflow: auto;
+		font-size: 75%;
+	}
+
+
+
+	form{
+		width: 100%;
+		margin: 10% auto 0 auto;
+	}
+
+	.headertext{
+		display: block;
+		margin: 6% auto;
+		width: 9em;
+	}
+
+	#logobox{
+		width: 95%;
+		height: auto;
+	}
+
+	#navlinks{
+		font-size: 80%;
+		margin-bottom: 5%;
+	}
+
+	.slider-wrapper, #slider{
+		visibility: hidden;
+		width: 0;
+		height: 0;
+	}
+
+	#whatpanel{
+		margin: 0 auto;
+	}
+
+	#hero-block{
+		width: 40em;
+		font-size: 50%;
+	}
+
+	.numberheader{
+width: 120px;
+height: 120px;
+border-radius: 80px;
+font-size: 900%;
+	}
+
+	.howbox{
+		margin-bottom: 5%;
+	}
+
+	.contactplate{
+		font-size: 120%;
+	}
+
+	#contactplate-3{
+		font-size: 120%;
+	}
+
+	#contact-form{
+		width: 90%;
+	}
+
+	input.button{
+
+		width: 50px;
+		height: 15px;
+	}
+
+	.bio{
+		height: auto;
+	}
+
+	#footerlogo{
+		width: 40%;
+		height: 40%;
+	}
+
+	#contactinfobox{
+		width: 100%;
+		display: block;
+		margin: 0 auto 10% auto;
+		position: static;
+	}
+
+	#footerlogo{
+		margin: 0 auto;
+	}
+
+	
+	
+}
+
+@media all and (max-width:1000px){ 
+
+.numberheader{
+	 width: 115px;
+	 height: 115px;
+	 font-size: 900%;
+}
+	body{
+		font-size: 70%;
+	}
+	
+
+}

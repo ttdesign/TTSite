@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en-us" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en-us" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en-us" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en-us" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en-us" class="no-js"> <!--<![endif]-->
+
+<head>
+	<title>Think Tank Web Design</title>
+  	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<!-- The Columnal Grid (1140px wide base, load first), Type and image presets, and mobile stylesheet -->
+	<link rel="stylesheet" href="css/columnal.css" type="text/css" media="screen" />
+
+	<!-- Fixes for IE -->
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="css/ie.css" type="text/css" media="screen" />
+	<![endif]-->
+
+	<!-- use "fixed-984px-ie.css" or "fixed-960px-ie.css for a 984px or 960px fixed width for IE6 and 7 -->
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" href="css/fixed-984px-ie.css" type="text/css" media="screen" />
+	<![endif]-->
+
+	<!-- Fixes for IE6, only needed if IE 6 will be supported - width must match 984px or 960px of css file used above -->
+	<!-- Use .imagescale to fix IE6 issues with full-column width images (class must be added to any image wider than the column it is placed into) -->
+	<!--[if lte IE 6]>
+		<link rel="stylesheet" href="css/ie6-984px.css" type="text/css" media="screen" />
+	<![endif]-->
+	<!-- End fixes for IE -->
+
+	<!-- Customizations --> 
+	<!-- stylesheets -->
+	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/customv2.css" type="text/css" media="screen" />
+
+    <!-- fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Croissant+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Six+Caps' rel='stylesheet' type='text/css'>   
+    <link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+
+	<!-- javascript includes -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script> 
+	<script type="text/javascript" src="js/custom.js"></script>
+
+</head>
+<body>
+
+	<!-- image preloading initialization (here for easy editing!) -->
+	<div class="hidden">
+		<script type="text/javascript">
+				addLoadEvent(preload(
+					//add url strings of each image you want to preload to this list
+					//these will be preloaded after the page is finished loading
+					"http://thinktankgoesboom.com/mike/images/ttlog.jpg",
+					"http://thinktankgoesboom.com/mike/images/slide1.jpg",
+					"http://thinktankgoesboom.com/mike/images/slide2.jpg",
+					"http://thinktankgoesboom.com/mike/images/slide3.jpg",
+					"http://thinktankgoesboom.com/mike/images/alexstencil.jpg",
+					"http://thinktankgoesboom.com/mike/images/mikestencil.jpg",
+					"http://thinktankgoesboom.com/mike/images/jordanstencil.jpg",
+					"http://thinktankgoesboom.com/mike/images/thinktanklogov1.jpg"
+				));
+		</script>
+	</div>
+	<!-- end image preloading initialization -->
+	
+	<div class="container">
+		<header class="row">
+			<div class="col_6">
+				<div id="logobox">
+				<img id="logo" src="images/ttlog.jpg" class="logo" alt="think tank logo">
+			</div>
+			</div>
+			<nav class="col_6 last">
+				<div id="navlinks">
+					<a id="howlink" href="#howanchor" class="navtext">How</a>
+					<a id="whatlink" href="#whatanchor" class="navtext">What</a>
+					<a id="wholink" href="#whoanchor" class="navtext">Who</a>
+				</div>
+			</nav>
+		</header>
+		 <section class="row">
+		<div id="hero-block"><span id="herotext1" class="hero-text">...creative, bold, punchy</span><p id="fancyrule">- - -</p><span id="herotext2" class="hero-text">web-formation experts</span></div>
+		</section>
+		
+		<hr class="rule">
+		<a id="whatanchor"></a>
+		<section class="row">
+			
+			<h2 class="headertext">What We Do</h2>
+
+
+			<article id="whatpanel" class="col_5 bodytext">
+				<h3>
+				We punch up your online business with bold-creative-design, our magic mix of tech savviness brewed in the fertile minds of our web-formation engineers.
+			</h3>
+
+			The value of your web presence cannot be overstated.  Reaching your audience with a message that is unique to your personal story and catches their imagination is invaluable in today's noisy world.  Your story is what separates you from the pretenders, and ThinkTank believes that drawing your audience in can be as honest and genuine as a campfire gathering, yet as powerful an attention getter as a roundhouse kick to the gut. 
+			</article>
+
+			<div class="col_4 last">
+
+
+			<div class="slider-wrapper">
+			    <div id="slider" class="nivoSlider">
+			    	<img src="images/slide1.jpg" alt="slider image 1">
+			        <img src="images/slide2.jpg" alt="slider image 2">
+			        <img src="images/slide3.jpg" alt="slider image 3">
+			    </div>
+			</div>
+
+			</div>
+	
+		</section>
+
+<div class="pagebreak"></div>
+
+		<a id="howanchor"></a>
+		<section class="row">
+
+			
+			<h2 class="headertext">How We Do It</h2>
+
+			<article class="step col_4">
+				<h2 class="numberheader"><span class="testnumbplacement">1</span></h2>
+				<h3>Plan</h3>
+				<p class="bodytext howbox">
+					Step one is connecting with you. We gather all the information about your story and goals to find the heart of your identity and talents. We want to translate 'you' into the *digital you*. We come together to create a blow by blow plan for getting your creations online, so customers and fans alike can get to know how you make their lives better. 
+				</p>
+			</article>
+
+			<article class="step col_4">
+				<h2 class="numberheader"><span class="testnumbplacement">2</span></h2>
+				<h3>Execute</h3>
+				<p class="bodytext howbox">
+					Combining the most relevant tools on the internet today, ThinkTank puts on its working gloves. Our programmers hole up in their caves and fashion your web presence layer by layer, tuning your revved-up internet solution by hand.
+				</p>
+			</article>
+
+			<article class="step col_4 last">
+				<h2 id="three" class="numberheader"><span class="testnumbplacement">3</span></h2>
+				<h3>Release</h3>
+				<p class="bodytext howbox">
+					The dust has settled and all the pieces are in place, honed, and ready to go.  ThinkTank works with you to get the word out.  We don't just push the baby out of the nest, we strap on high-powered internet technology to launch it towards its target audience.
+				</p>
+			</article>
+		</section>
+
+
+<div class="pagebreak"></div>
+
+		<a id="whoanchor"></a>
+		<section id="biobox" class="row">
+
+			
+			<h2 class="headertext">ThinkTank Is</h2>
+
+			<article class="bio col_4">
+				<div class="biopicframe">
+					<img class="biopic" src="images/alexstencil.jpg" alt="alex bio pic">
+				</div>
+				<h3>Alex</h3>
+				<p class="bodytext articlebox">
+					Looking for a way to make stories come to life, Alex has been studying computers for creative design since the 90's.  A love for high-concept and abstract thinking married with practical computing has been nurtured over the years while studying computer engineering, and pairing up with Mike to embody those concepts in ThinkTank brings this practice to fruition.						
+				</p>
+			</article>
+
+			<article class="bio col_4">
+				<div class="biopicframe">
+					<img class="biopic" src="images/mikestencil.jpg" alt="mike bio pic">
+				</div>
+				<h3>Mike</h3>
+				<p class="bodytext articlebox" >
+					Starting as an indy game developer, Mike has spent the last few years honing his skill in creative UI design, gameplay design and innovative new user experiences. In 2011 after teaming up with Alex, the pair began contemplating ways to bring their unique blend of talents to the internet medium.  Later that year, the beginnings of the ThinkTank design philosophy were born.							
+				</p>
+			</article>
+
+			<article class="bio col_4 last">
+				<div class="biopicframe">
+					<img class="biopic" src="images/jordanstencil.jpg" alt="jordan bio pic">
+				</div>
+				<h3>Jordan</h3>
+				<p class="bodytext articlebox">
+					Friend and advisor, Jordan keeps ThinkTank sane when all else fails.  Specializing in IT solutions, he's had high tech experience with network equipment ranging from routers to racks, and has the uncanny power to bring in the action with the fewest of resources.								
+				</p>
+			</article>
+		</section>
+
+		<hr class="rule">
+
+
+		<footer class="row">
+			<div id="contact-form" class="col_8">
+				<h2 class="footerheader">Let's Talk!</h2>
+
+				<!-- contact form here -->
+				<form name="contactform" action="email_submit.php" method="POST">
+					<div id="contactplate-1" class="contactplate">
+						<div class="contactbox">
+							<label for="name" class="bodytext userlabel">Name:</label>
+							<input id="name" class="userinput" type="text" name="namebox"  required="required" placeholder="Who are you?">
+						</div>
+					</div>
+
+					<div id="contactplate-2" class="contactplate">
+						<div class="contactbox">
+							<label for="email" class="bodytext userlabel">Email:</label>
+							<input id="email" class="userinput" type="text" name="contactbox" required="required" placeholder="How can we reach you?">
+						</div>
+					</div>
+
+					<div id="contactplate-3">
+						<label id="msgtext" for="msginput" class="bodytext">Message:</label>
+						<input id="msgbutt" class="button" type="submit" value="Send">
+					</div>
+
+					<div id="inputbox">
+						<textarea id="msginput" name="messagebox"></textarea>
+					</div>
+
+				</form>
+				<!-- end contact form -->
+
+				<div id="contactinfobox"><div id="footerlogo">
+							<img src="images/thinktanklogov1.jpg" alt="footer logo">
+						</div>
+					<span class="contactinfo">954-695-3061</span>
+					
+					<span class="contactinfo">contact@thinktankgoesboom.com</span>
+						
+					</div>
+			</div>
+			
+
+		</footer>
+		
+
+	</div>
+
+</body>
+</html>
